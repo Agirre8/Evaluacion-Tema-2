@@ -1,3 +1,4 @@
+
 def dividir (numerador, divisor):
     return numerador/divisor
 
@@ -24,6 +25,9 @@ try:
 except KeyError:
     print("pais no registrado")
 
-resultado = "2" +10
+try:
+    resultado = "2" + 10
+except TypeError:
+    print ("la variable tiene string y int al mismo tiempo por lo que no es válida")
 
 
