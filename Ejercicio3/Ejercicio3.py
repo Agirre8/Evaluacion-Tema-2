@@ -9,6 +9,6 @@ class Producto:
     def __str__(self):
         return "Código:", self.codigo, "Nombre:", self.nombre, "Precio:", self.precio, "Tipo", self.tipo
 
-producto1=Producto(2381, "Ngolo", 10, "Negro")
+producto1=Producto(2381, "Paco", 10, "negro")
 print(producto1)
-producto1=Producto(2381, "Ngolo", 10, "Negro")
+
