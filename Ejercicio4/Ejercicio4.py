@@ -24,3 +24,6 @@ try:
 except KeyError:
     print("pais no registrado")
 
+resultado = "2" +10
+
+
