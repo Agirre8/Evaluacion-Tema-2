@@ -1,6 +1,4 @@
 class Alumno:
-    nota: 
-    nombre: 
 
     def __init__(self, nombre, nota):
         self.nombre = nombre
@@ -8,6 +6,8 @@ class Alumno:
     
     def calificacion (nombre, nota):
         if nota<5:
-            calificacion(nombre)
+            print("el alumno:", nombre, "ha suspendido")
         else:
             return print("El alumno:", nombre, "ha aprobado")
+
+    calificacion ("Iñigo",3)
