@@ -10,12 +10,17 @@ except ZeroDivisionError:
 
 lista = [4,7,30,23,5]
 
-index=10
+elemento=10
 
-if 0 <= index < len(lista):
-    lista[index]
+if 0 <= elemento < len(lista):
+    lista[elemento]
 else:
     print("Elemento fuera de la lista")
 
 
+paises = { "españa":"español", "eeuu":"inglés", "italia":"italiano" } 
+try:
+    paises["alemania"]
+except KeyError:
+    print("pais no registrado")
 
